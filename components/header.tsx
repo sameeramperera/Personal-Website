@@ -32,6 +32,15 @@ export default function Header() {
           <li className='transition-colors hover:text-foreground'>
             <Link href='/projects'>Projects</Link>
           </li>
+          <li className="transition-colors hover:text-foreground">
+            <a
+              href="https://til.sameeramperera.me/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              TIL
+            </a>
+          </li>
           <li className='transition-colors hover:text-foreground'>
             <Link href='/contact'>Contact</Link>
           </li>
